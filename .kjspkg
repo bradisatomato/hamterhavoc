@@ -1,7 +1,7 @@
 {
     "author": "bradhamster",
     "description": "very havocy™",
-    "versions": ["10"],
+    "versions": [10],
     "modloaders": ["forge"],
     "dependencies": [],
     "incompatibilities": []
