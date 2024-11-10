@@ -104,6 +104,15 @@ ServerEvents.recipes(e => {
     ], {
         A: "kubejs:block_of_brad_skin"
     })
+    // Hamter Sword
+    e.shaped("1x kubejs:hamter_sword", [
+        " A ",
+        " A ",
+        " B "
+    ], {
+        A: "kubejs:hamter_ingot",
+        B: "minecraft:stick"
+    })
     // Hamter Hat
     e.shaped("1x kubejs:hamter_hat", [
         "AAA",
