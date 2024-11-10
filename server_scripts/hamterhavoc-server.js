@@ -104,4 +104,12 @@ ServerEvents.recipes(e => {
     ], {
         A: "kubejs:block_of_brad_skin"
     })
+    // Hamter Hat
+    e.shaped("1x kubejs:hamter_hat", [
+        "AAA",
+        "A A",
+        "   "
+    ], {
+        A: "kubejs:hamter_ingot"
+    })
 })

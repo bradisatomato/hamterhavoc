@@ -23,6 +23,7 @@ StartupEvents.registry("item", e => {
     makeJunkFood("cheeseburger", e);
     makeJunkFood("french_fries", e);
     makeJunkFood("hamburger", e);
+    e.create("hamter_hat", "helmet").tier("netherite");
     e.create("hamter_ingot");
     e.create("hamter_sword", "sword").tier("netherite");
 })
@@ -54,6 +55,11 @@ ItemEvents.modification(e => {
     e.modify("kubejs:brad_sword", i => {
         i.attackDamage = 10000;
         i.attackSpeed = 0.1;
+    })
+    e.modify("kubejs:hamter_hat", i => {
+        i.armorProtection = 100;
+        i.armorToughness = 6;
+        i.armorKnockbackResistance = 1;
     })
     e.modify("kubejs:hamter_sword", i => {
         i.attackDamage = 150;
